@@ -1,0 +1,32 @@
+// -> Using CSS in React.js
+
+// -> Tailwind CSS setup
+
+// -> What is a state
+
+   In React.js, state is like a way to keep track of things that can change in a component.
+   Each part of your app can have its own state, and whenever the state of a component changes,
+   the component re-renders to reflect these changes.
+
+// -> Hooks ( useState, useEffect, useRef and many more .... )
+
+   Hooks are special functions in React that let you use react features in functional components.
+
+// -> useState hook
+
+   Explain with examples
+
+
+const [count, setCount]=(useState(5)); 
+
+a variable (count=5) & a function (setCount)
+
+
+
+// -> Props
+
+   Props (shortform for properties) are a way to pass data from one component to another in React. 
+   Props allow components to be dynamic and reusable by allowing them to receive different
+   data and behave accordingly.
+
+
