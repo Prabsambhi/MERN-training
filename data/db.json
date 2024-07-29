@@ -1,0 +1,24 @@
+{
+    "info": [
+        {
+            "id": 1000,
+            "name": "Steve",
+            "location": "Mumbai"
+        },
+        {
+            "id": 1001,
+            "name": "Tim",
+            "location": "Banglore"
+        },
+        {
+            "id": 1002,
+            "name": "David",
+            "location": "Kolkata"
+        },
+        {
+            "id": 1003,
+            "name": "Peter",
+            "location": "Delhi"
+        }
+    ]
+}

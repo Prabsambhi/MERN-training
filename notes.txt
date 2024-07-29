@@ -21,12 +21,32 @@ const [count, setCount]=(useState(5));
 
 a variable (count=5) & a function (setCount)
 
+--------------------------------------------------------------------------------------------------
 
+// -> Prettier extension
 
 // -> Props
 
    Props (shortform for properties) are a way to pass data from one component to another in React. 
    Props allow components to be dynamic and reusable by allowing them to receive different
    data and behave accordingly.
+
+
+// -> Notes application
+
+--------------------------------------------------------------------------------------------------
+
+
+// -> JSON Server npm, JSON Formatter extension
+// -> setup db.json
+
+// -> useEffect hook
+
+   The useEffect hook in React is used to handle side effects in functional components.
+   It allows you to perform side effects in your components, such as fetching data, 
+   directly in the function component.
+
+// -> react-router-dom
+// -> <a href=""> vs <Link to="">
 
 
