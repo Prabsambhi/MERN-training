@@ -46,7 +46,35 @@ a variable (count=5) & a function (setCount)
    It allows you to perform side effects in your components, such as fetching data, 
    directly in the function component.
 
+--------------------------------------------------------------------------------------------------
+
 // -> react-router-dom
 // -> <a href=""> vs <Link to="">
 
+// -> useNavigate hook
 
+--------------------------------------------------------------------------------------------------
+
+// -> Local Storage
+
+   Local storage  you to store data in the browser.
+   The data persists even after the browser is closed and reopened.
+   Stores data in key-value pairs.
+
+
+   In React, state updates are asynchronous. This means that when you call setNotes, 
+   React doesn't immediately update the notes state.
+   Instead, it schedules the update and then proceeds with the rest of the function.
+   As a result, if you try to use the updated notes state right after calling setNotes,
+   you will still get the previous state value.
+
+// -> react-hot-toast
+
+// -> Custom Hooks
+
+   Custom Hooks are a powerful feature in React that allows you to extract and reuse logic across 
+   different components. They help keep your components clean and organized by abstracting away 
+   complex logic into reusable functions.
+
+// -> Context API
+   Scenarios where you have data that needs to be accessible by many components at different levels.

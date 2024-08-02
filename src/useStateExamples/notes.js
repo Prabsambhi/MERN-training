@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Notes = () => {
-  const [notes, setNotes] = useState(["MERN", "Java", "Python"]);
+  const [notes, setNotes] = useState([]);
   const [text, setText] = useState("");
 
   function deleteNote(index) {

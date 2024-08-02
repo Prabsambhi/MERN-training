@@ -11,6 +11,7 @@ const Counter = () => {
   function subtract() {
     setCount(count - 1);
   }
+
   return (
     <div className="flex flex-col items-center">
       <h1 className="text-4xl text-yellow-500">{count}</h1>
