@@ -1,16 +1,12 @@
 import React, { useState } from "react";
+// import UseCounter from "../hooks/counterHook";
+import { useCounter } from "../context/counterContext";
 
 const Counter = () => {
   
-  const [count, setCount] = useState(0);
+  // const {count, add, subtract} = UseCounter(0)
 
-  function add() {
-    setCount(count + 1);
-  }
-
-  function subtract() {
-    setCount(count - 1);
-  }
+  const { count, add, subtract } = useCounter();
 
   return (
     <div className="flex flex-col items-center">

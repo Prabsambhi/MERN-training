@@ -77,4 +77,10 @@ a variable (count=5) & a function (setCount)
    complex logic into reusable functions.
 
 // -> Context API
+
    Scenarios where you have data that needs to be accessible by many components at different levels.
+
+
+
+
+   

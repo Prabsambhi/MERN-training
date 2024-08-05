@@ -5,12 +5,15 @@ import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 import { Toaster } from "react-hot-toast";
+import { CounterProvider } from "./context/counterContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+      <CounterProvider>
         <App />
+      </CounterProvider>
       <Toaster />
     </BrowserRouter>
   </React.StrictMode>

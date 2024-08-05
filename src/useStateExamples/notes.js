@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 const Notes = () => {
+  
   const [notes, setNotes] = useState([]);
   const [text, setText] = useState("");
 
@@ -18,6 +19,7 @@ const Notes = () => {
     }
     setText('')
   }
+  
 
   return (
     <div className="w-1/4 p-3">
