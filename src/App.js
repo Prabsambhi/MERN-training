@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/homePage";
 import LocalStoragePractice from "./localStoragePractice/localStoragePractice";
 import Counter from "./useStateExamples/counter";
+import Responsive from "./pages/responsive";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/props" element={<Parent />} />
         <Route path="/notes" element={<Notes />} />
         <Route path="/localStorageDemo" element={<LocalStoragePractice />} />
+        <Route path="/responsive" element={<Responsive />} />
       </Routes>
     </>
   );

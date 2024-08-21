@@ -83,4 +83,7 @@ a variable (count=5) & a function (setCount)
 
 
 
-   
+// -> Responsive tailwind CSS
+
+sm 	640px // here sm targets all the width of 640px and above (640>= sm)
+

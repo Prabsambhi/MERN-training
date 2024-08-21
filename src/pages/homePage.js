@@ -39,6 +39,12 @@ const HomePage = () => {
             Local Storage Practice
           </button>
         </Link>
+
+        <Link to="/responsive">
+          <button className="border border-black px-3">
+            Responsive UI
+          </button>
+        </Link>
       </div>
     </div>
   );
